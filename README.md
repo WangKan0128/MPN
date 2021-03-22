@@ -22,29 +22,6 @@ If you find our work useful in your research, please consider citing:
 * PyTorch > 0.4.1
 
 
-### Strcuture of the database
-$data_dir
-└───$1501
-    |───train_all
-        └───0002
-            └───0002_c1s1_000451_03.jpg
-            └───0002_c1s1_000551_01.jpg
-            └───...
-        └───0007
-            └───0007_c1s6_028546_01.jpg
-            └───0007_c1s6_028546_04.jpg
-            └───...
-        ───Person ID
-            └───images
-            └───...
-    |───gallery
-        └───Person ID
-            └───images
-    |───query
-        └───Person ID
-            └───images
-
-
 ### Training phase
 The MPN is trained in a end-to-end manner with the following settings:
 
