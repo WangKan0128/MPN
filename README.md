@@ -84,7 +84,7 @@ python train_mpn_no_ca.py  --gpu_ids 7 --train_all --n_classes 6 --n_images 8  -
 
 
 
-1. finetuning from a IDE snapshot (at ./data/1501.pth);
+1. finetuning from the IDE snapshot (./data/1501.pth);
 
 2. intial learning rate: 0.01, x 0.1 for every 20 epoches, 70 epoch in total;
 
@@ -93,9 +93,6 @@ python train_mpn_no_ca.py  --gpu_ids 7 --train_all --n_classes 6 --n_images 8  -
 4. triplet margin: 0.4;
 
 5. erasing ratio for random erasing: 0.5;
-
-
-
 
 
 ### Test phase
