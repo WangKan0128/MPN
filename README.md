@@ -1,16 +1,10 @@
 ## MPN
 
-
-
 ### Introduction
 
 This repository hosts a simplified version of the code used for the **https://ieeexplore.ieee.org/document/9200784** **Multi-task Learning with Coarse Priors for Robust Part-aware Person Re-identification**. 
 
-
-
 With MPN, we obtain state-of-the-art results on multiple person re-identification databases.
-
-
 
 ### Citation
 
