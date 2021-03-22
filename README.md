@@ -15,15 +15,10 @@ If you find our work useful in your research, please consider citing:
 ```bibtex
 
 @article{ding2020multi,
-
   title="Multi-task Learning with Coarse Priors for Robust Part-aware Person Re-identification",
-
   author="Changxing Ding and Kan Wang and Pengfei Wang and Dacheng Tao",
-
   journal="IEEE Transactions on Pattern Analysis and Machine Intelligence",
-
   year="2020"
-
 }
 
 ```
@@ -32,8 +27,6 @@ If you find our work useful in your research, please consider citing:
 
 * Python > 3.6.3
 * PyTorch > 0.4.1
-
-
 
 ### Strcuture of the database
 
