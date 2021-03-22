@@ -40,7 +40,6 @@ $data_dir
     |───gallery
         └───Person ID
             └───images
-
     |───query
         └───Person ID
             └───images
