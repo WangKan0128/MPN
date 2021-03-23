@@ -18,7 +18,8 @@ If you find our work useful in your research, please consider citing:
   title="Multi-task Learning with Coarse Priors for Robust Part-aware Person Re-identification",
   author="Changxing Ding and Kan Wang and Pengfei Wang and Dacheng Tao",
   journal="IEEE Transactions on Pattern Analysis and Machine Intelligence",
-  year="2020"
+  year="2020",
+  DOI="10.1109/TPAMI.2020.3024900".
 }
 
 ```
@@ -113,13 +114,13 @@ performance evaluation:
 
 Performance obtained by the simplified version of MPN on Market-1501 dataset is:
 
-    top1:0.959620 top5:0.985748 top10:0.992280 mAP:0.892474.
+    Rank-1: 96.0%  mAP: 89.2%.
 
 
 
 Besides, when equipped with CA module, the performance of MPN is:
 
-    top1:0.960808 top5:0.985451 top10:0.990499 mAP:0.894083.
+    Rank-1: 96.1%  mAP: 89.4%.
 
 
 
