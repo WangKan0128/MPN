@@ -4,13 +4,17 @@
 
 This repository hosts a simplified version of the code used for the **https://ieeexplore.ieee.org/document/9200784** **Multi-task Learning with Coarse Priors for Robust Part-aware Person Re-identification**. 
 
+The main difference between this simplified version of MPN and the full version of MPN described our paper is the inputs for ATs. Specifically, in this simplified version of MPN, we uniformly dividing the feature maps output by the backbone into K horizontal stripes, which form the input of ATs. 
+
+Compared with the full version of MPN, the simplified version has the following advantages:
+1. It completely bypasses body part detection during both the training and testing phases, which means it is more efficient.
+2. It's construction of inputs for ATs is easy to implement. Specifically, the full version of MPN requires the outputs of human segmentation and human parsing during training, while the simplified version is independent of them. As a result, compared with the baseline, this simplified version only needs a few more code (11 lines in our experiment) for the ATs.
+
 With MPN, we obtain state-of-the-art results on multiple person re-identification databases.
 
 ### Citation
 
 If you find our work useful in your research, please consider citing:
-
-
 
 ```bibtex
 @article{ding2020multi,
