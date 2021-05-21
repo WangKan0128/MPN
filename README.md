@@ -12,6 +12,11 @@ Compared with the full version of MPN, the simplified version has the following 
 
 With MPN, we obtain state-of-the-art results on multiple person re-identification databases.
 
+### Checkpoints for Market-1501 and Duke
+We have provided the checkpoints (pytorch version) which is respectively trained on Market-1501 and Duke for MPN in the following link. Please download these files with code 6r2q.
+
+https://pan.baidu.com/s/14KEmRH9Z7PYPxQLxbZQKhg#list/path=%2F
+
 ### Citation
 
 If you find our work useful in your research, please consider citing:
